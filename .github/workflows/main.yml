@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [ master, dev, test ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+        - uses: actions/checkout@v2
+        - name: Deploy dev
+          if: github.ref == 'refs/heads/dev'
+          uses: akhileshns/heroku-deploy@v3.12.12
+          with:
+            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+            heroku_app_name: "ltanhbackenddemo-dev"
+            heroku_email: "leanhcntt@gmail.com"
+        - name: Deploy test
+          if: github.ref == 'refs/heads/test'
+          uses: akhileshns/heroku-deploy@v3.12.12
+          with:
+            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+            heroku_app_name: "ltanhbackenddemo-test"
+            heroku_email: "leanhcntt@gmail.com"
+        - name: Deploy prod
+          if: github.ref == 'refs/heads/master'
+          uses: akhileshns/heroku-deploy@v3.12.12
+          with:
+            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+            heroku_app_name: "ltanhbackenddemo-prod"
+            heroku_email: "leanhcntt@gmail.com"
