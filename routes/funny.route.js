@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
 
 // FNY-1 + API 1: Hehe
 router.get('/Hehe', async (req, res) => {
-    res.status(200).json({"Message": "Hehe" + " zeze"});
+    res.status(200).json({"Message": "Hehe" + " zeze" + " kaka"});
 });
 
 // FNY-2 + API 2: Hihi
