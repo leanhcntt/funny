@@ -15,4 +15,9 @@ router.get('/Hihi', async (req, res) => {
     res.status(200).json({"Message": "Hihi"});
 });
 
+// FNY-5 + API 3: Leuleu
+router.get('/Leuleu', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
 module.exports = router;
