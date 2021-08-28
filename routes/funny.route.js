@@ -20,4 +20,57 @@ router.get('/Leuleu', async (req, res) => {
     res.status(200).json({"Message": "Leuleu"});
 });
 
+<<<<<<< HEAD
+=======
+// FNY-5 + API 3: Leuleu
+router.get('/kk', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/kk', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+>>>>>>> 5369553... Merge pull request #13 from leanhcntt/dev-test-2
 module.exports = router;
