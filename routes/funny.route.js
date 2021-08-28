@@ -30,4 +30,35 @@ router.get('/zz', async (req, res) => {
     res.status(200).json({"Message": "Leuleu"});
 });
 
+// FNY-5 + API 3: Leuleu
+router.get('/kk', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+// FNY-5 + API 3: Leuleu
+router.get('/zz', async (req, res) => {
+    res.status(200).json({"Message": "Leuleu"});
+});
+
+
 module.exports = router;
